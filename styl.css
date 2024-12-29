@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.logo{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    padding-top: 15px;
+
+}
+
+i{
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    padding-right: 70px;
+    font-weight: bold;
+    font-size: 1.4em;
+    
+    
+    
+    
+    
+}
+.logo a:hover{
+    color: rosybrown;
+}
+
+
+
+
+.logo h1{
+    position: absolute;
+    padding-left: 10%;
+}
+
+/* section 2 */
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+    /* animation-name: anim1;
+    animation-duration: 3S; */
+    /* animation-delay: 3S; */
+}
+
+
+
+@keyframes anim1{
+    from{
+        transform: translateX(-750px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+.text img{
+    width: 550px;
+    animation-name: anim2;
+    animation-duration: 2.9S;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anim2{
+    from{
+        transform: translateX(710px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+
+
+.text2{
+    margin-left: 10%;
+    margin-bottom: 40px;
+    animation-name: anim1;
+    animation-duration: 2.9S;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.btn-get button{
+    position: absolute;
+    padding: 10px 20px;
+    top: 65%;
+    left: 10%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    animation-name: anim1;
+    animation-duration: 2.9S;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.btn-get button:hover{
+    background-color: black;
+}
+
+/* bage two */
+
+.head{
+    background-color: black;
+    height: 100vh;
+}
+
+.head h1{
+    color: white;
+}
+.head h1{
+    position: absolute;
+    margin-left: 7%;
+    padding-top: 7%;
+    cursor: pointer;
+    animation-name: anim1;
+    animation-duration: 2S;
+    
+}
+.head h1 u{
+    font-family: ALGERIAN;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.box p{
+    text-align: center;
+    margin-top: 13%;
+    margin-left: 6%;
+    /* width: 700%; */
+    /* width: 560%; */
+    width: 600px;
+    font-size: 17px;
+    animation-name: anim1;
+    animation-duration: 2S;
+} 
+
+.box img{
+    /* width:1560%;  */
+    /* width: 2000%; */
+    width: 2000px;
+    animation-name: anim3;
+    animation-duration: 2S;
+    
+}
+
+
+@keyframes anim3{
+    from{
+        transform: translatey(720px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+
+
+
+.btn-sarted button{
+    position: absolute;
+    padding: 10px 20px;
+    top: 55%;
+    left: 7%;
+    background-color: rgba(245, 245, 245, 0.756);
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    animation-name: anim1;
+    animation-duration: 2S;
+}
+
+.btn-sarted button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.footer h2{
+    padding-top: 22px;
+}
+
+
+/* section 3 */
+
+.card{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+    
+}
+.car1{
+    background-color: rgba(245, 245, 245, 0.756);
+    height: 310px;
+
+}
+
+
+
+
+.car2{
+    background-color: rgba(245, 245, 245, 0.756);
+}
+
+
+
+.car3{
+    /* height: 380px; */
+    background-color: rgba(245, 245, 245, 0.756);
+}
+
+
+
+.car1 img{
+    background-color: transparent;
+    width: 350px;
+}
+
+.car1 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.car1 h1{
+    font-size: 1.3em;
+    
+}
+span{
+    color: blue;
+}
+
+.car2 h1{
+    font-size: 1.3em;
+    
+}
+
+
+.car3 h1{
+    font-size: 1.3em;
+    
+}
+
+
+.car2 img{
+    width: 350px;
+}
+
+.car2 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.car3 img{
+    height: 215px;
+    width: 350px;
+}
+
+.car3 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.btn-add{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-add button{
+    padding: 10px 20px;
+    background-color: rgba(245, 245, 245, 0.756);
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+
+}
+
+
+/* bart 2 */
+
+
+.cardtwo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+    
+    
+}
+
+
+
+.car4{
+    background-color: rgba(245, 245, 245, 0.756);
+
+}
+
+
+
+.car5{
+    background-color: rgba(245, 245, 245, 0.756);
+}
+
+
+
+.car6{
+    
+    background-color: rgba(245, 245, 245, 0.756);
+}
+
+
+
+.car4 img{
+    background-color: transparent;
+    width: 350px;
+   
+}
+
+.car4 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.car4 h1{
+    font-size: 1.3em;
+    
+}
+span{
+    color: blue;
+}
+
+.car5 h1{
+    font-size: 1.3em;
+    
+}
+
+
+.car6 h1{
+    font-size: 1.3em;
+    
+}
+
+
+.car5 img{
+    width: 350px;
+}
+
+.car5 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.car6 img{
+    height: 255px;
+    width: 350px;
+}
+
+.car6 img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.btn-add{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-add button{
+    padding: 10px 20px;
+    background-color: rgba(245, 245, 245, 0.756);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+
+.btn-add button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.footer2{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
+/* contact */
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+    background: url(car1\ logo.png)no-repeat center center/cover;
+}
+
+
+    
+    
+    /* border-radius: 9px; */
+
+
+.rogester{
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 330px;
+    /* background-color: aliceblue; */
+    background: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.2);
+     
+    
+}
+
+
+.first{
+    padding: 0 4px;
+    width: 360px;
+    height: 30px;
+    /* padding: 5px 100px; */
+    margin-top: 20px;
+    border: none;
+    
+
+}
+
+.phone{
+    padding: 0 4px;
+    width: 360px;
+    height: 30px;
+    /* padding: 5px 100px; */
+    margin-top: 20px;
+
+}
+
+.email{
+    padding: 0 4px;
+    width: 360px;
+    height: 30px;
+    /* padding: 5px 100px; */
+    margin-top: 20px;
+
+
+}
+
+.feedback{
+    padding: 0 4px;
+    width: 360px;
+    height: 35px;
+
+    /* padding: 5px 108px; */
+    margin-top: 20px;
+
+}
+
+.btn-send button{
+    padding: 7px 140px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn-send button:hover{
+    background-color: blue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
